@@ -12,7 +12,7 @@ body, html {
 .form-wrapper {
     background-color: white;
     padding: 20px;
-    border: 2px solid #d3d3d3; /* borda cinza ao redor do formulário */
+    border: 10px solid #d3d3d3; /* borda cinza ao redor do formulário */
     max-width: 500px; /* largura máxima do formulário */
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra para o formulário */
@@ -22,7 +22,7 @@ body, html {
 /* Estilo para o título */
 .form-wrapper h2 {
     color: white; /* cor do título */
-    background-color: #b0b4b6; /* cor de fundo do título */
+    background-color:  #d3d3d3; /* cor de fundo do título */
     margin: -20px -20px 20px -20px; /* remove o padding extra ao redor do título */
     padding: 20px; /* espaçamento interno do título */
 }
@@ -36,13 +36,14 @@ form {
  
 /* Estilos para os campos e rótulos do formulário */
 label {
-    margin-bottom: 5px;
+    margin-bottom: 0px  #ccc;
+    
 }
  
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -50,15 +51,14 @@ textarea {
 }
  
 textarea {
-    height: 150px; /* aumenta a altura da área de texto */
+    height: 200px; /* aumenta a altura da área de texto */
 }
  
 input[type="submit"] {
     padding: 10px;
-    border: none;
     border-radius: 0; /* pontas retas */
-    background-color: #3498db;
-    color: white;
+    background-color: #f7fafc;
+    color: rgb(10, 10, 10);
     cursor: pointer;
 }
  
